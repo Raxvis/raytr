@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raytr - Rate anything. Track everything.</title>
+  <meta name="description" content="A privacy-first iOS app for rating items with custom metrics. No ads. No tracking. Your data stays yours.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            poppins: ['Poppins', 'sans-serif'],
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    .screenshot-scroll::-webkit-scrollbar { display: none; }
+    .screenshot-scroll { -ms-overflow-style: none; scrollbar-width: none; }
+  </style>
+</head>
+<body class="bg-black text-white font-poppins antialiased">
+
+  <!-- Nav -->
+  <nav class="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="text-xl font-light tracking-[0.3em]">R A Y T R</a>
+      <div class="flex gap-6 text-sm text-gray-400">
+        <a href="index.html" class="text-white hover:text-white transition">Home</a>
+        <a href="privacy.html" class="hover:text-white transition">Privacy</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20">
+    <!-- <div class="mb-8">
+      <img src="images/icon.png" alt="Raytr icon" class="w-24 h-24 rounded-2xl mx-auto shadow-2xl shadow-white/10">
+    </div> -->
+    <h1 class="text-5xl md:text-7xl font-extralight tracking-[0.35em] mb-6">R A Y T R</h1>
+    <p class="text-2xl md:text-3xl font-light text-gray-300 mb-4">Rate anything. Track everything.</p>
+    <p class="text-base md:text-lg text-gray-500 max-w-xl mb-10 leading-relaxed">
+      A privacy-first iOS app for rating items with custom metrics. No ads. No tracking. Your data stays yours.
+    </p>
+    <a href="#" class="inline-flex items-center gap-3 bg-white text-black px-8 py-4 rounded-xl text-sm font-medium hover:bg-gray-200 transition">
+      <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      Download on the App Store
+    </a>
+    <div class="mt-16 animate-bounce text-gray-600">
+      <svg class="w-6 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="py-24 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-light text-center mb-4">Everything you need to rate</h2>
+      <p class="text-gray-500 text-center mb-16 max-w-lg mx-auto">Simple yet powerful. Built for people who care about what they consume.</p>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <div class="border border-white/10 rounded-2xl p-8 hover:border-white/25 transition">
+          <div class="text-2xl mb-4">&#9881;</div>
+          <h3 class="text-lg font-medium mb-2">Custom Metrics</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">Create your own rating dimensions &mdash; Taste, Value, Comfort, whatever matters to you.</p>
+        </div>
+
+        <div class="border border-white/10 rounded-2xl p-8 hover:border-white/25 transition">
+          <div class="text-2xl mb-4">&#9733;</div>
+          <h3 class="text-lg font-medium mb-2">Smart Scoring</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">Two-tier scoring combines your gut feeling with detailed metric averages for precise ratings.</p>
+        </div>
+
+        <div class="border border-white/10 rounded-2xl p-8 hover:border-white/25 transition">
+          <div class="text-2xl mb-4">&#9776;</div>
+          <h3 class="text-lg font-medium mb-2">Categories</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">Organize items into categories like Burgers, Coffee Shops, Pizza &mdash; browse and compare easily.</p>
+        </div>
+
+        <div class="border border-white/10 rounded-2xl p-8 hover:border-white/25 transition">
+          <div class="text-2xl mb-4">&#9729;</div>
+          <h3 class="text-lg font-medium mb-2">iCloud Sync</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">Your ratings sync seamlessly across all your Apple devices via your private iCloud account.</p>
+        </div>
+
+        <div class="border border-white/10 rounded-2xl p-8 hover:border-white/25 transition">
+          <div class="text-2xl mb-4">&#128274;</div>
+          <h3 class="text-lg font-medium mb-2">Privacy First</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">No analytics, no tracking, no third-party SDKs. Your data never leaves your device and iCloud.</p>
+        </div>
+
+        <div class="border border-white/10 rounded-2xl p-8 hover:border-white/25 transition">
+          <div class="text-2xl mb-4">&#128269;</div>
+          <h3 class="text-lg font-medium mb-2">Search Everything</h3>
+          <p class="text-gray-400 text-sm leading-relaxed">Find any item, rating, or category instantly with built-in search across the entire app.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Screenshots -->
+  <section class="py-24 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl md:text-4xl font-light text-center mb-4">See it in action</h2>
+      <p class="text-gray-500 text-center mb-16">Beautiful in light and dark mode</p>
+
+      <!-- Light mode -->
+      <div class="mb-16">
+        <h3 class="text-sm uppercase tracking-widest text-gray-500 text-center mb-8">Light Mode</h3>
+        <div class="flex gap-6 overflow-x-auto screenshot-scroll pb-4 justify-start md:justify-center">
+          <img src="images/69inch_light_feed.png" alt="Feed - Light" class="h-[500px] md:h-[600px] rounded-3xl shadow-2xl shadow-white/5 flex-shrink-0">
+          <img src="images/69inch_light_items.png" alt="Items - Light" class="h-[500px] md:h-[600px] rounded-3xl shadow-2xl shadow-white/5 flex-shrink-0">
+          <img src="images/69inch_light_rating.png" alt="Rating - Light" class="h-[500px] md:h-[600px] rounded-3xl shadow-2xl shadow-white/5 flex-shrink-0">
+          <img src="images/69inch_light_categories.png" alt="Categories - Light" class="h-[500px] md:h-[600px] rounded-3xl shadow-2xl shadow-white/5 flex-shrink-0">
+        </div>
+      </div>
+
+      <!-- Dark mode -->
+      <div>
+        <h3 class="text-sm uppercase tracking-widest text-gray-500 text-center mb-8">Dark Mode</h3>
+        <div class="flex gap-6 overflow-x-auto screenshot-scroll pb-4 justify-start md:justify-center">
+          <img src="images/69inch_dark_feed.png" alt="Feed - Dark" class="h-[500px] md:h-[600px] rounded-3xl shadow-2xl shadow-white/5 flex-shrink-0">
+          <img src="images/69inch_dark_items.png" alt="Items - Dark" class="h-[500px] md:h-[600px] rounded-3xl shadow-2xl shadow-white/5 flex-shrink-0">
+          <img src="images/69inch_dark_rating.png" alt="Rating - Dark" class="h-[500px] md:h-[600px] rounded-3xl shadow-2xl shadow-white/5 flex-shrink-0">
+          <img src="images/69inch_dark_categories.png" alt="Categories - Dark" class="h-[500px] md:h-[600px] rounded-3xl shadow-2xl shadow-white/5 flex-shrink-0">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-24 px-6 text-center">
+    <h2 class="text-3xl md:text-4xl font-light mb-4">Start rating today</h2>
+    <p class="text-gray-500 mb-10 max-w-md mx-auto">Free to download. No account needed. Your data is yours, always.</p>
+    <a href="#" class="inline-flex items-center gap-3 bg-white text-black px-8 py-4 rounded-xl text-sm font-medium hover:bg-gray-200 transition">
+      <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+      Download on the App Store
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-white/10 py-10 px-6">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-500">
+      <span class="tracking-[0.2em] font-light">R A Y T R</span>
+      <div class="flex gap-6">
+        <a href="privacy.html" class="hover:text-white transition">Privacy Policy</a>
+        <a href="https://github.com/raxvis/raytr/issues" class="hover:text-white transition" target="_blank" rel="noopener">Support</a>
+      </div>
+      <span>&copy; 2026 Raxvis. All rights reserved.</span>
+    </div>
+  </footer>
+
+</body>
+</html>
