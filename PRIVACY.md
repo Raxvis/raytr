@@ -24,7 +24,7 @@ Your data is used for one purpose only: to provide the app's functionality. Rati
 
 ## iCloud Sync
 
-Raytr uses Apple's CloudKit to sync your data across your devices via your private iCloud account (container: iCloud.com.raxvis.raytr). This means:
+Raytr uses Apple's CloudKit to sync your data across your devices via your private iCloud account (container: iCloud.com.xondesigns.raytr). This means:
 
 - Your data is stored in your personal iCloud private database, which only you can access.
 - Sync is governed by your iCloud account settings and Apple's iCloud terms of service.
@@ -79,5 +79,5 @@ If you have questions or concerns about this privacy policy, please open an issu
 
 ---
 
-**Bundle ID**: com.raxvis.raytr
+**Bundle ID**: com.xondesigns.raytr
 **Developer**: Raxvis
