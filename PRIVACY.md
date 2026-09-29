@@ -2,7 +2,7 @@
 
 **Effective Date: March 8, 2026**
 
-Raytr ("the app") is developed by Raxvis. This privacy policy explains how the app handles your data.
+Raytr ("the app") is developed by Xon Designs LLC. This privacy policy explains how the app handles your data.
 
 The short version: Raytr does not collect, track, or share your personal data with anyone. Your data stays on your device and in your private iCloud account.
 
@@ -80,4 +80,4 @@ If you have questions or concerns about this privacy policy, please open an issu
 ---
 
 **Bundle ID**: com.xondesigns.raytr
-**Developer**: Raxvis
+**Developer**: Xon Designs LLC
