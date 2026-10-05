@@ -1,8 +1,8 @@
 # Privacy Policy for Raytr
 
-**Effective Date: March 8, 2026**
+**Effective Date: October 4, 2026**
 
-Raytr ("the app") is developed by Raxvis. This privacy policy explains how the app handles your data.
+Raytr ("the app") is developed by Xon Designs LLC. This privacy policy explains how the app handles your data.
 
 The short version: Raytr does not collect, track, or share your personal data with anyone. Your data stays on your device and in your private iCloud account.
 
@@ -11,7 +11,7 @@ The short version: Raytr does not collect, track, or share your personal data wi
 Raytr stores the following data that you create within the app:
 
 - Items you rate and review
-- Custom metrics and categories you define
+- Tags and custom metrics you define
 - Ratings and scores you assign
 - Photos you attach to items
 - Any notes or text you enter
@@ -24,7 +24,7 @@ Your data is used for one purpose only: to provide the app's functionality. Rati
 
 ## iCloud Sync
 
-Raytr uses Apple's CloudKit to sync your data across your devices via your private iCloud account (container: iCloud.com.raxvis.raytr). This means:
+Raytr uses Apple's CloudKit to sync your data across your devices via your private iCloud account (container: iCloud.com.xondesigns.raytr). This means:
 
 - Your data is stored in your personal iCloud private database, which only you can access.
 - Sync is governed by your iCloud account settings and Apple's iCloud terms of service.
@@ -37,11 +37,16 @@ For details on how Apple handles iCloud data, refer to [Apple's Privacy Policy](
 
 - **On-device storage**: Your data, including photos, is stored locally on your device using SwiftData with external storage for media files.
 - **No remote servers**: The app does not send data to any servers operated by the developer. There are no developer-controlled backends, APIs, or databases.
-- **Data deletion**: You can delete any data within the app at any time. Uninstalling the app removes all local data. iCloud data can be managed through your iCloud account settings.
+- **Data deletion**: You can delete any item or rating within the app at any time, or delete everything with **Settings → Wipe Data**. Uninstalling the app removes all local data. iCloud data can be managed through your iCloud account settings.
+- **Data export**: **Settings → Export Data** creates a JSON file of your data on your device. It goes only where you choose to send it.
+
+## Camera and Photos
+
+Raytr uses the camera or your photo library only when you choose to add a photo to an item. The photo is stored with that item, on your device and in your private iCloud database.
 
 ## Push Notifications
 
-The app has the capability to send push notifications. If enabled, notifications are delivered through Apple's Push Notification service (APNs). No notification data is shared with third parties. You can manage notification preferences in your device's system settings.
+Raytr does not show notifications. iCloud sync uses Apple's Push Notification service (APNs) only to send silent signals that tell the app new data is available. These signals contain no personal data.
 
 ## Third-Party Services
 
@@ -69,15 +74,17 @@ Your data is protected by the security measures built into iOS and iCloud, inclu
 
 ## Changes to This Policy
 
-If this privacy policy is updated, the revised version will be posted in the app's repository and the effective date at the top will be changed. Continued use of the app after changes constitutes acceptance of the updated policy.
+If this privacy policy is updated, the revised version will be posted at [https://raytr.co/privacy.html](https://raytr.co/privacy.html) and the effective date at the top will be changed. Continued use of the app after changes constitutes acceptance of the updated policy.
 
 ## Contact
 
-If you have questions or concerns about this privacy policy, please open an issue at:
+If you have questions or concerns about this privacy policy, please contact us at:
 
-[https://github.com/raxvis/raytr/issues](https://github.com/raxvis/raytr/issues)
+[https://raytr.co/](https://raytr.co/)
 
 ---
 
-**Bundle ID**: com.raxvis.raytr
-**Developer**: Raxvis
+**Bundle ID**: com.xondesigns.raytr
+**Developer**: Xon Designs LLC
+**Website**: [https://raytr.co/](https://raytr.co/)
+**Privacy Policy**: [https://raytr.co/privacy.html](https://raytr.co/privacy.html)
