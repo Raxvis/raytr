@@ -78,9 +78,9 @@ If this privacy policy is updated, the revised version will be posted at [https:
 
 ## Contact
 
-If you have questions or concerns about this privacy policy, please contact us at:
+If you have questions or concerns about this privacy policy, please contact Xon Designs LLC at:
 
-[https://raytr.co/](https://raytr.co/)
+[contact@xondesigns.com](mailto:contact@xondesigns.com)
 
 ---
 
